@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+     <!-- Tailwind CSS CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/lib/index.min.js"></script>
+
+    <!-- Navbar -->
+
+    <nav class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">
+            Greenden
+        </h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="gap-3 text-gray-600 hidden md:flex">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="products.html">Products</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- BEST SELLERS -->
+    <section class="text-center p-4">
+        <h1 class="font-bold text-3xl mt-5 ">Our Products</h1>
+
+        <input type="text" placeholder="Search for a product..."  class=" border border-black m-3 p-2 w-4/5">
+
+        <div class="grid grid-cols-2 md:grid-cols-4 md:gap-2 mt-5">
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/aloe.jpg">
+                <h1>Aloe Plant</h1>
+                <p>$5.5</p>
+            </div>
+            <div class="">
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./img/grey star calathea.jpg">
+                <h1>Calathea Plant</h1>
+                <p>$7.8</p>
+            </div>
+            <div class="">
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/croton petra.jpg">
+                <h1>croton petra</h1>
+                <p>$6.7</p>
+            </div>
+            <div class="">
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/jade succulent.jpg">
+                <h1>jade succulent </h1>
+                <p>$7.5</p>
+            </div>
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/aurora plant.jpg">
+                <h1>Aurora Plant</h1>
+                <p>$4.2</p>
+            </div>
+
+            <div class="">
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/calathea freddie.jpg">
+                <h1>Calathea Freddie</h1>
+                <p>$5.7</p>
+            </div>
+
+            <div class="">
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/echeveria.jpg">
+                <h1>Echeveria</h1>
+                <p>$6.7</p>
+            </div>
+           
+         
+            <div class="">
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./img/ZZ plant.jpg">
+                <h1>Zanzibar Gem</h1>
+                <p>$8.7</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+<section class="bg-green-100 p-10 flex flex-col gap-5">
+    <h1 class="font-bold text-4xl">Greenden</h1>
+    <p>Greenden offers nature-inspired products that bring peace, beauty, and sustainability into your home</p>
+    <p>&copy;2024 Greenden.com</p>
+
+</section>
+</body>
+</html>
