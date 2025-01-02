@@ -1,8 +1,6 @@
 GreenDen 🌿
 Excited to share my latest Tailwind CSS project! I’ve just completed building GreenDen – a plant-selling website, and I’m thrilled with the results!
 
-Check it out here: https://harshiniganesan20.github.io/my-greenden/
-
 🔧 Technologies Used
 
 HTML5: Markup language used to structure the content.
